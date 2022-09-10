@@ -1,12 +1,29 @@
+.semaforo {
+  background-color: black;
+  width: 150px;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+.luz {
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.roja {
+  background-color: red;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.amarilla {
+  margin-top: 10px;
+  background-color: yellow;
+}
+.verde {
+  margin-top: 10px;
+  background-color: green;
+}
+#encendida {
+  box-shadow: 0 0 30px #ffffff;
+}
